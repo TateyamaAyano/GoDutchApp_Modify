@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_titlebar"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#FFBB77">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:ellipsize="marquee"
+        android:gravity="center_horizontal|center"
+        android:text="Add your bill here!"
+        android:textStyle="italic"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:id="@+id/textView" />
+    
+    <Button
+        android:id="@+id/btAdd"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_action_name"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>
